@@ -1,0 +1,21 @@
+#
+# Don't track the compiled object files
+#
+Sone/default/*
+
+#
+# Don't track the datasheet PDFs (we don't have license to do so)
+#
+Datasheets/*
+
+#
+# But track the .HEX file, so people can download and upgrade w/o having to recompile.
+#
+!Sone/default/Sone.hex
+
+
+#
+# Don't track the Kicad temp files
+#
+Electronics/*.bak
+Electronics/*.000
